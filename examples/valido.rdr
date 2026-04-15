@@ -1,0 +1,19 @@
+programa radar;
+
+entero contador = 10;
+decimal promedio = 42.75;
+cadena mensaje = "Radar listo";
+booleano activo = verdadero;
+
+// Comentario de una linea
+/* Comentario
+   de varias lineas */
+
+si (contador >= 10) entonces
+    alerta(mensaje + " activo");
+fin
+
+mientras (contador != 0) hacer
+    contador = contador - 1;
+    reporte(contador);
+fin
