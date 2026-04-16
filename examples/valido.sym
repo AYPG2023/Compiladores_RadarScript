@@ -1,4 +1,0 @@
-contador           type=entero     declared_at=3    initial_value=10
-promedio           type=decimal    declared_at=4    initial_value=42.75
-mensaje            type=cadena     declared_at=5    initial_value=Radar listo
-activo             type=booleano   declared_at=6    initial_value=True

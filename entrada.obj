@@ -1,0 +1,26 @@
+MOV distancia, 120
+MOV viento, 85.5
+MOV zona, "NORTE"
+MOV alerta_activa, verdadero
+LOAD viento
+PUSH 70
+GT
+JMPF L1
+LOAD "Tormenta detectada en "
+LOAD zona
+CONCAT
+ALERTA
+L1:
+L2:
+LOAD distancia
+PUSH 0
+GT
+JMPF L3
+LOAD distancia
+PUSH 30
+SUB
+STORE distancia
+JMP L2
+L3:
+LOAD "Proceso finalizado"
+REPORTE

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="23a8b8af-7b29-4fd2-900f-0d47bff90184" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Compiladores_RadarScript.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/errors.py" beforeDir="false" afterPath="$PROJECT_DIR$/errors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/invalido.rdr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/semantico_invalido.lex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/semantico_invalido.rdr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/sintactico_invalido.lex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/sintactico_invalido.rdr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/valido.lex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/valido.rdr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/valido.sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salida.lex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/symbol_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/symbol_table.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tokens.py" beforeDir="false" afterPath="$PROJECT_DIR$/tokens.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AYPG2023&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AYPG2023/Compiladores_RadarScript.git&quot;,
+    &quot;accountId&quot;: &quot;c4297a90-9ca4-4472-8f61-68c0e7473d5e&quot;
+  }
+}</component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="$PROJECT_DIR$/../../bin/php/php-8.3.19-Win32-vs16-x64/php.exe" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="3CNdbF154MUJZz1qvs1FKpQ4qNI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/laragon/www/Compiladores_RadarScript",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-c7e53b3be11b-JavaScript-PS-253.28294.345" />
+        <option value="bundled-php-predefined-a98d8de5180a-09080813851e-com.jetbrains.php.sharedIndexes-PS-253.28294.345" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="23a8b8af-7b29-4fd2-900f-0d47bff90184" name="Changes" comment="" />
+      <created>1776230030720</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776230030720</updated>
+      <workItem from="1776230031805" duration="1079000" />
+      <workItem from="1776307241366" duration="4945000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

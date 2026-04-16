@@ -1,7 +1,0 @@
-programa radar;
-
-entero valor = 25.;
-cadena texto = "sin cerrar
-si (valor ! 10) entonces
-    alerta;
-fin

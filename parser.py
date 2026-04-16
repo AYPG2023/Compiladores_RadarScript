@@ -156,7 +156,7 @@ class Parser:
 
     def _parse_if(self) -> IfNode:
         keyword = self._previous()
-        condition = self._parse_grouped_expression("Expected '(' after 'si'.", "Expected ')' after condition.")
+        condition = self._parse_expression()
         self._consume(TokenType.ENTONCES, "Expected 'entonces' after if condition.")
         body = self._parse_block(stop_tokens={TokenType.FIN})
         self._consume(TokenType.FIN, "Expected 'fin' to close 'si' block.")
@@ -164,7 +164,7 @@ class Parser:
 
     def _parse_while(self) -> WhileNode:
         keyword = self._previous()
-        condition = self._parse_grouped_expression("Expected '(' after 'mientras'.", "Expected ')' after condition.")
+        condition = self._parse_expression()
         self._consume(TokenType.HACER, "Expected 'hacer' after while condition.")
         body = self._parse_block(stop_tokens={TokenType.FIN})
         self._consume(TokenType.FIN, "Expected 'fin' to close 'mientras' block.")
@@ -178,12 +178,6 @@ class Parser:
         self._consume(TokenType.RIGHT_PAREN, f"Expected ')' after arguments of '{callee}'.")
         self._consume(TokenType.SEMICOLON, f"Expected ';' after call to '{callee}'.")
         return CallNode(callee=callee, arguments=arguments, line=token.line, column=token.column)
-
-    def _parse_grouped_expression(self, opening_message: str, closing_message: str) -> ExpressionNode:
-        self._consume(TokenType.LEFT_PAREN, opening_message)
-        expression = self._parse_expression()
-        self._consume(TokenType.RIGHT_PAREN, closing_message)
-        return expression
 
     def _parse_expression(self) -> ExpressionNode:
         return self._parse_relational()

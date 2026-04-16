@@ -13,11 +13,7 @@ class Symbol:
     initial_value: str | None = None
 
     def to_sym_row(self) -> str:
-        rendered_value = self.initial_value if self.initial_value is not None else "-"
-        return (
-            f"{self.name:<18} type={self.symbol_type:<10} "
-            f"declared_at={self.declaration_line:<4} initial_value={rendered_value}"
-        )
+        return f"{self.name} : {self.symbol_type}"
 
 
 class SymbolTable:

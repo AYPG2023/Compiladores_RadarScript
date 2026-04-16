@@ -1,39 +1,52 @@
 from __future__ import annotations
 
-import sys
+import argparse
 from pathlib import Path
 
-from errors import LexicalError, ParseError, SemanticError
-from lexer import export_tokens, tokenize_file
-from parser import parse_tokens
-from semantic import analyze_semantics
+from compiler import CompilerPipeline
+from ui import launch_app
+
+
+def build_parser() -> argparse.ArgumentParser:
+    parser = argparse.ArgumentParser(description="RadarScript compiler")
+    parser.add_argument("input", nargs="?", help="Archivo .rdr a compilar en modo CLI")
+    parser.add_argument("--run", action="store_true", help="Ejecuta el codigo objeto despues de compilar")
+    parser.add_argument("--ui", action="store_true", help="Fuerza el arranque de la interfaz grafica")
+    return parser
 
 
 def main() -> int:
-    if len(sys.argv) < 2:
-        print("Usage: python main.py <input.rdr> [output.lex] [output.sym]")
+    args = build_parser().parse_args()
+
+    if args.ui or not args.input:
+        try:
+            launch_app()
+        except RuntimeError as error:
+            print(error)
+            return 1
+        return 0
+
+    pipeline = CompilerPipeline()
+    result = pipeline.compile_file(Path(args.input))
+
+    if not result.successful:
+        print(result.error_report())
         return 1
 
-    input_path = Path(sys.argv[1])
-    output_path = Path(sys.argv[2]) if len(sys.argv) > 2 else Path("salida.lex")
-    symbols_path = Path(sys.argv[3]) if len(sys.argv) > 3 else Path("salida.sym")
+    if result.artifacts is not None:
+        print(f"LEX: {result.artifacts.lex_path}")
+        print(f"SYM: {result.artifacts.sym_path}")
+        print(f"INT: {result.artifacts.int_path}")
+        print(f"OBJ: {result.artifacts.obj_path}")
 
-    try:
-        tokens = tokenize_file(file_path=input_path)
-        export_tokens(tokens=tokens, output_path=output_path)
-        program = parse_tokens(tokens)
-        semantic_result = analyze_semantics(program=program, output_path=symbols_path)
-    except FileNotFoundError:
-        print(f"Input file not found: {input_path}")
-        return 1
-    except (LexicalError, ParseError, SemanticError) as error:
-        print(error)
-        return 1
+    if args.run:
+        pipeline.execute(result)
+        if result.execution_result is not None:
+            print(result.execution_result.output or "Sin salida.")
+        if "ejecucion" in result.errors:
+            print(result.errors["ejecucion"])
+            return 1
 
-    print(
-        f"Generated {len(tokens)} tokens in {output_path} and "
-        f"{len(semantic_result.symbol_table.values())} symbols in {symbols_path}"
-    )
     return 0
 
 

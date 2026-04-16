@@ -1,7 +1,0 @@
-programa radar;
-
-entero contador = 10
-
-si (contador >= 10) entonces
-    alerta("ok");
-fin
