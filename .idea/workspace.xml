@@ -5,26 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23a8b8af-7b29-4fd2-900f-0d47bff90184" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Compiladores_RadarScript.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/errors.py" beforeDir="false" afterPath="$PROJECT_DIR$/errors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/invalido.rdr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/semantico_invalido.lex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/semantico_invalido.rdr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/sintactico_invalido.lex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/sintactico_invalido.rdr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/valido.lex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/valido.rdr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/valido.sym" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/salida.lex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/symbol_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/symbol_table.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tokens.py" beforeDir="false" afterPath="$PROJECT_DIR$/tokens.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,24 +39,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/laragon/www/Compiladores_RadarScript",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/laragon/www/Compiladores_RadarScript&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -92,7 +73,15 @@
       <option name="presentableId" value="Default" />
       <updated>1776230030720</updated>
       <workItem from="1776230031805" duration="1079000" />
-      <workItem from="1776307241366" duration="4945000" />
+      <workItem from="1776307241366" duration="5066000" />
+      <workItem from="1776386270010" duration="3131000" />
+      <workItem from="1776616105244" duration="39000" />
+      <workItem from="1777246391030" duration="203000" />
+      <workItem from="1777246656815" duration="15000" />
+      <workItem from="1777850923484" duration="1153000" />
+      <workItem from="1778556028764" duration="16000" />
+      <workItem from="1778736708466" duration="52000" />
+      <workItem from="1779056457001" duration="239000" />
     </task>
     <servers />
   </component>
