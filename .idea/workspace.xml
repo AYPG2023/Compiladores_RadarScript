@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23a8b8af-7b29-4fd2-900f-0d47bff90184" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Manuales/Manual Tecnico.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MANUAL_TECNICO.md" beforeDir="false" afterPath="$PROJECT_DIR$/Documentacion/MANUAL_TECNICO.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MANUAL_USUARIO.md" beforeDir="false" afterPath="$PROJECT_DIR$/Documentacion/MANUAL_USUARIO.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manual Tecnico.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/entrada.int" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/entrada.lex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/entrada.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/entrada.sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiler.py" beforeDir="false" afterPath="$PROJECT_DIR$/compiler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_code.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +27,12 @@
     &quot;assignee&quot;: &quot;AYPG2023&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/AYPG2023/Compiladores_RadarScript.git",
-    "accountId": "ab9bc247-0bd3-4466-92fd-bc63a558034e"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AYPG2023/Compiladores_RadarScript.git&quot;,
+    &quot;accountId&quot;: &quot;ab9bc247-0bd3-4466-92fd-bc63a558034e&quot;
   }
-}]]></component>
+}</component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="$PROJECT_DIR$/../../bin/php/php-8.3.19-Win32-vs16-x64/php.exe" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -47,28 +42,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/laragon/www/Compiladores_RadarScript",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/laragon/www/Compiladores_RadarScript&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\laragon\www\Compiladores_RadarScript\Archivo_Prueba" />

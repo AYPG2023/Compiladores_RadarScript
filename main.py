@@ -38,6 +38,7 @@ def main() -> int:
         print(f"SYM: {result.artifacts.sym_path}")
         print(f"INT: {result.artifacts.int_path}")
         print(f"OBJ: {result.artifacts.obj_path}")
+        print(f"HTML: {result.artifacts.obj_viewer_path}")
 
     if args.run:
         pipeline.execute(result)

@@ -1,0 +1,4 @@
+distancia : entero
+viento : decimal
+zona : cadena
+alerta_activa : booleano
